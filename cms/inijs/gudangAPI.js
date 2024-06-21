@@ -35,15 +35,15 @@ export let loginuserbarunowa = "https://asia-southeast2-testlogin-366704.cloudfu
 // API BARU BARU INI BOSSSSSSSSSSSSSSSS```````````````````````````
 
 //signup user baru
-export let userbarunowa = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create_account_userr";
+export let userbarunowa = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create_account_userr_berkemah";
 
 //signin admin baru
-export let adminloginbaru = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/login_fancy";
+export let adminloginbaru = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/login_admin_berkemah";
 export let upadateblog_1 = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/updated-blog";
 export let createblogg = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create-blog";
 
-export let updateproductt = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/updated-product";
-export let createproductfix = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create-product";
+export let updateproductt = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/updated-product_berkemah";
+export let createproductfix = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create-product_berkemah";
 
 
 export let createcommentt = "https://asia-southeast2-testlogin-366704.cloudfunctions.net/create-comment";

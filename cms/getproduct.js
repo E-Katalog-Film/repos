@@ -1,7 +1,7 @@
 // Fetch all products from the server
 function getProducts() {
   // fetch('https://asia-southeast2-testlogin-366704.cloudfunctions.net/getallproduct')
-  fetch('https://asia-southeast2-testlogin-366704.cloudfunctions.net/getall-product')
+  fetch('https://asia-southeast2-testlogin-366704.cloudfunctions.net/getall-product_berkemah')
     .then(response => response.json())
     .then(data => {
       if (data.status === true) {
