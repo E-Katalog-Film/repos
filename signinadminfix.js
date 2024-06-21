@@ -57,7 +57,7 @@ function responseData(data) {
         // Additional actions you may want to perform
 
         // For example, redirecting to another page
-        window.location.href = "https://fancypedia.my.id/cms/";
+        window.location.href = "https://e-katalog-film.github.io/cms/";
     } else {
         // Handle the case where login is not successful
         console.error("Login failed. Status:", data.status, "Message:", data.token);

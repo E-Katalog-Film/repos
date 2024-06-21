@@ -65,7 +65,7 @@ function responseData(result) {
         // setCookieWithExpireHour("name", data.username, 2);
 
         // Redirecting to another page
-        window.location.href = "https://fancypedia.my.id/user/";
+        window.location.href = "https://e-katalog-film.github.io/Berkemah/pages/user/";
 
         // Logging some information
         console.log("token", token);
@@ -86,10 +86,10 @@ function responseData(result) {
             cancelButtonText: "Buat Akun"
           }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "https://fancypedia.my.id/pages/signin/";
+                window.location.href = "https://e-katalog-film.github.io/Berkemah/pages/signin/";
             }
             else{
-                window.location.href = "https://fancypedia.my.id/pages/signup/index.html";
+                window.location.href = "https://e-katalog-film.github.io/Berkemah/pages/signup/index.html";
             }
           });
         console.error("Gagal Login, Coba Lagi");
